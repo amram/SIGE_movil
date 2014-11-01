@@ -10,10 +10,10 @@
 
         <preference name="phonegap-version" value="3.6.3" />
 
-        <name>School Planet</name>
+        <name>SIGE móvil</name>
 
         <description>
-            Aplicación móvil de la red educativa School Planet.
+            Aplicación móvil para el sistema de gestión electoral 2015.
         </description>
 
         <author href="http://cenet.mx" email="amram_x@hotmail.com">
