@@ -20,7 +20,7 @@
 	<div role="main" class="ui-content">
 		<center>
   
-		<object data="http://50.62.9.206/~srealms/sige_movil/login.php" width="100%" height="5500">
+		<object data="http://50.62.9.206/~srealms/sige_movil/login.php" width="100%" height="900">
     Error: Comprueba tu conexión a internet.
 </object>
         </center>
