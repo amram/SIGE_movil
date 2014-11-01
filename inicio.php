@@ -11,18 +11,23 @@
 
 <body>
 
-<div data-role="page" id="home">
+<div data-role="page" id="home" style="background:#FBDC04; background-image:url(css/images/white.png)";>
 
-	<div data-role="header">
-		<h1>SIGE Móvil</h1>
+	<div data-role="header" style="background-color:#C00">
+		<h1><font color="#FFFFFF">SIGE Móvil</font></h1>
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
-		
+		<center>
+  
+		<object data="http://50.62.9.206/~srealms/sige_movil/login.php" width="100%" height="5500">
+    Error: Comprueba tu conexión a internet.
+</object>
+        </center>
 	</div><!-- /content -->
 
-	<div data-role="footer" data-position="fixed" data-theme="b">
-		<span style="font-size:8pt;">SIGE 2015 | Todos los derechos reservados &copy;</span>
+	<div data-role="footer" data-position="fixed" data-theme="a" style="background-color:#C00">
+		<span style="font-size:8pt; color:#FFF">SIGE 2015 | Todos los derechos reservados &copy;</span>
         <a href="#nosotros" data-transition="slideup">Info</a>
 	</div><!-- /footer -->
     
