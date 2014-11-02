@@ -26,12 +26,21 @@
         </center>
 	</div><!-- /content -->
 
-	<div data-role="footer" data-position="fixed" data-theme="a" style="background-color:#C00">
-		<a href="#reg" data-transition="slideup"><img src="css/images/cam.png" width="36" /><br /><font color="#999999" face="Verdana, Geneva, sans-serif" size="-3">actas</font></a>
-        <span style="font-size:8pt; color:#FFF">SIGE 2015 | Todos los derechos reservados &copy;</span>
-        
+
+
+
+<div data-role="footer" data-position="fixed" data-theme="b" style="background-color:#C00">
+		<div data-role="navbar" data-theme="b" style="background-color:#C00">
+    		<ul>
+        		<li><a href="#nosotros" data-icon="alert" style="background-color:#C00">Info</a></li>
+        		<li><a href="#priv" data-icon="eye" style="background-color:#C00">Reportar</a></li>
+                <li><a href="#reg" data-icon="camera" style="background-color:#C00">Actas</a></li>
+    		</ul>
+</div><!-- /navbar -->
 	</div><!-- /footer -->
-    
+
+
+
 </div><!-- /page -->
 
 

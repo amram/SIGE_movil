@@ -37,11 +37,11 @@ var fn = {
         $.mobile.loading( 'show' );
         $.ajax({
             type: "POST",
-            url: "http://carlos.igitsoft.com/apps/test.php",
+            url: "http://50.62.9.206/~srealms/sige_movil/test.php",
             data: {nom:nom,mail:mail,tel:tel}
         }).done(function(respuesta){
             if( respuesta == '1' ){
-                myTransfer.subir(foto, "http://carlos.igitsoft.com/apps/test.php");
+                myTransfer.subir(foto, "http://50.62.9.206/~srealms/sige_movil/test.php");
             }
         });
     },
@@ -49,7 +49,7 @@ var fn = {
         $.mobile.loading( 'show' );
         $.ajax({
             type: "POST",
-            url: "http://carlos.igitsoft.com/apps/test.php",
+            url: "http://50.62.9.206/~srealms/sige_movil/test.php",
             data: {tipo:th,habitaciones:ha,personas:pr,dias:di}
         }).done(function(respuesta){
             if( respuesta == '1' ){
