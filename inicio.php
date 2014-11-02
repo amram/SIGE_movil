@@ -27,8 +27,9 @@
 	</div><!-- /content -->
 
 	<div data-role="footer" data-position="fixed" data-theme="a" style="background-color:#C00">
-		<span style="font-size:8pt; color:#FFF">SIGE 2015 | Todos los derechos reservados &copy;</span>
-        <a href="#nosotros" data-transition="slideup">Info</a>
+		<a href="#reg" data-transition="slideup"><img src="css/images/cam.png" width="36" /><br /><font color="#999999" face="Verdana, Geneva, sans-serif" size="-3">actas</font></a>
+        <span style="font-size:8pt; color:#FFF">SIGE 2015 | Todos los derechos reservados &copy;</span>
+        
 	</div><!-- /footer -->
     
 </div><!-- /page -->
@@ -97,105 +98,6 @@ Vea la disponibilidad de los contactos, envíe mensajes instantáneos e inicie r
 
 
 
-<div data-role="page" id="nr2">
-
-	<div data-role="header">
-		<h1>Nueva Reserva</h1>
-	</div><!-- /header -->
-
-	<div role="main" class="ui-content">
-		<ul data-role="listview" data-inset="true">
-        <li data-theme="b">Datos de reserva</li>
-   		 <li>Habitaciones:
-         	<select id="nrHab">
-            	<option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-            </li>
-   		 <li>Personas:
-          	<select id="nrPer">
-            	<option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-            </li>
-   		 <li>Días:
-          	<select id="nrDia">
-            	<option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-         </li>
-		</ul>
-	</div><!-- /content -->
-
-	<div data-role="footer" data-position="fixed" data-theme="b">
-		<div data-role="navbar" data-theme="b">
-    		<ul>
-        		<li><a href="#" data-rel="back" style="background-color:#aa0000;">Atrás</a></li>
-        		<li><a href="#">Reservar</a></li>
-    		</ul>
-</div><!-- /navbar -->
-	</div><!-- /footer -->
-    
-</div><!-- /page -->
-
-
-
-
-
-
-
-
-
-
-
-
-<div data-role="page" id="historial">
-
-	<div data-role="header">
-		<h1>Historial</h1>
-        <a href="#" data-rel="back">Atrás</a>
-	</div><!-- /header -->
-
-	<div role="main" class="ui-content">
-		<table>
-        	<thead>
-            <tr>
-        		<!--<th>Fecha</th>-->
-                <th>Tipo</th>
-                <th>Habitaciones</th>
-                <th>Personas</th>
-                <th>Días</th>
-            </tr>
-       		</thead>
-            <tbody id="tbody">
-      
-            </tbody>
-        </table>
-	</div><!-- /content -->
-
-	<div data-role="footer" data-position="fixed" data-theme="b">
-		<div data-role="navbar" data-theme="b">
-    		<ul>
-        		<li><a href="#nosotros" data-icon="alert">Info</a></li>
-        		<li><a href="#priv" data-icon="tag">Privacidad</a></li>
-                <li><a href="#nr1" data-icon="plus">Reservar</a></li>
-    		</ul>
-</div><!-- /navbar -->
-	</div><!-- /footer -->
-    
-</div><!-- /page -->
-
-
-
 
 
 
@@ -226,22 +128,33 @@ Vea la disponibilidad de los contactos, envíe mensajes instantáneos e inicie r
 
 <div data-role="page" id="reg">
 
-	<div data-role="header">
-		<h1>Registro</h1>
+	<div data-role="header" style="background-color:#C00">
+		<h1><font color="#FFFFFF">Registro de actas</font></h1>
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
 		<ul data-role="listview">
         	<li data-theme="b">Datos de usuario</li>
-            <li><input type="text" placeholder="Nombre" id="regName"></li>
-            <li><input type="email" placeholder="Correo Electrónico" id="regMail"></li>
-            <li><input type="tel" placeholder="Teléfono" id="regTel"></li>
+            <li><input type="text" placeholder="Usuario" id="regName"></li>
+            <li><input type="password" placeholder="Password" id="regMail"></li>
+            <li data-theme="b">Datos del acta</li>
+            <li><input type="text" placeholder="Descripción" id="regTel"></li>
             <li><a href="#" id="regTake">Tomar Foto</a></li>
             <li id="foto"></li>
             <li><a href="#" id="regSend" data-role="button" style="text-align:center;" data-theme="b">Registrar</a></li>
         </ul>
 	</div><!-- /content -->
 
+
+<div data-role="footer" data-position="fixed" data-theme="b" style="background-color:#C00">
+		<div data-role="navbar" data-theme="b" style="background-color:#C00">
+    		<ul>
+        		<li><a href="#nosotros" data-icon="alert" style="background-color:#C00">Info</a></li>
+        		<li><a href="#priv" data-icon="tag" style="background-color:#C00">Privacidad</a></li>
+                <li><a href="#" data-rel="back" data-icon="back" style="background-color:#C00">Atras</a></li>
+    		</ul>
+</div><!-- /navbar -->
+	</div><!-- /footer -->
     
 </div><!-- /page -->
 

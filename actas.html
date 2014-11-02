@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Actas</title>
+<meta name="viewport" content="width-device-width, initial-scale=1" />
+<!-- librerias css -->
+<link href="css/jquery.mobile-1.4.4.min.css" rel="stylesheet">
+<link href="css/jquery.mobile.theme-1.4.4.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div data-role="page" id="reg">
+
+	<div role="main" class="ui-content">
+		<ul data-role="listview">
+        	<li data-theme="b">Datos de usuario</li>
+            <li><input type="text" placeholder="Nombre" id="regName"></li>
+            <li><input type="email" placeholder="Correo Electrónico" id="regMail"></li>
+            <li><input type="tel" placeholder="Teléfono" id="regTel"></li>
+            <li><a href="#" id="regTake">Tomar Foto</a></li>
+            <li id="foto"></li>
+            <li><a href="#" id="regSend" data-role="button" style="text-align:center;" data-theme="b">Registrar</a></li>
+        </ul>
+	</div><!-- /content -->
+
+    
+</div><!-- /page -->
+
+
+
+
+
+
+
+
+
+<!-- librerias js -->
+<script src="phonegap.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile-1.4.4.min.js"></script>
+<script src="js/actions.js"></script>
+<!-- librerias Phonegap -->
+<script src="js/API/capture.js"></script>
+<script src="js/API/fileTransfer.js"></script>
+<script src="js/API/network-info.js"></script>
+<script src="js/API/websql.js"></script>
+
+</body>
+</html>

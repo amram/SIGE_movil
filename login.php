@@ -10,8 +10,8 @@
 
 <br /><br />
 <form action="login2.php" method="post" id="login" name="login">
-<p align="right"><font face="Verdana, Geneva, sans-serif" color="#CC0000">Usuario: </font><p align="right"><input type="text" />
-<p align="right"><font face="Verdana, Geneva, sans-serif" color="#CC0000">Password:</font> <p align="right"><input type="password" />
+<p align="right"><font face="Verdana, Geneva, sans-serif" color="#CC0000">Usuario: </font><p align="right"><input type="text" id="usuario" name="usuario" />
+<p align="right"><font face="Verdana, Geneva, sans-serif" color="#CC0000">Password:</font> <p align="right"><input type="password"id="password" name="password" />
 <p align="right"><input type=image src="enviar.png" width="100">
 </form>
 </body>
