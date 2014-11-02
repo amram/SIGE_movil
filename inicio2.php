@@ -31,8 +31,8 @@
         <div role="main" class="ui-content">
 		<ul data-role="listview" data-inset="true">
         <li><a href="#reg">Apertura de casilla</a></li>
-   		 <li><a href="#nr1">Jornada electoral</a></li>
-   		 <li><a href="#historial" id="verHistorial">Cierre de jornada</a></li>
+   		 <li><a href="#bingo">Jornada electoral</a></li>
+   		 <li><a href="#" id="verHistorial">Cierre de jornada</a></li>
 		</ul>
 	</div><!-- /content -->
 
@@ -48,13 +48,42 @@
 	</div><!-- /footer -->
     
 	</div><!-- /content -->
-
-
-
-
 </div><!-- /page -->
 
 
+
+
+
+
+
+<div data-role="page" id="bingo" style="background:#FBDC04; background-image:url(css/images/white.png)";>
+
+	<div data-role="header" style="background-color:#C00">
+		<h1><font color="#FFFFFF">SIGE Móvil</font></h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<center>
+  
+		<object data="http://50.62.9.206/~srealms/sige_movil/bingo.php" width="100%" height="900">
+    Error: Comprueba tu conexión a internet.
+</object>
+        </center>
+	</div><!-- /content -->
+
+
+<div data-role="footer" data-position="fixed" data-theme="b" style="background-color:#C00">
+		<div data-role="navbar" data-theme="b" style="background-color:#C00">
+    		<ul>
+        		<li><a href="#nosotros" data-icon="info" style="background-color:#C00">Info</a></li>
+        		<li><a href="#priv" data-icon="lock" style="background-color:#C00">Privacidad</a></li>
+                <li><a href="#" data-rel="back" data-icon="back" style="background-color:#C00">Atras</a></li>
+    		</ul>
+</div><!-- /navbar -->
+	</div><!-- /footer -->
+    
+	</div><!-- /content -->
+</div><!-- /page -->
 
 
 
