@@ -1,5 +1,5 @@
 <?php
-	if(isset($_POST['nom']) && isset($_POST['mail']) && isset($_POST['tel']) ){
+	if(isset($_POST['usuario']) && isset($_POST['password']) && isset($_POST['th']) && isset($_POST['th2']) && isset($_POST['th3']) ){
 		echo "1";
 	}else{
 	if(isset($_FILES['foto'])){

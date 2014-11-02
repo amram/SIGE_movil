@@ -100,7 +100,6 @@
 
 
 <div data-role="page" id="reg">
-
 	<div data-role="header" style="background-color:#C00">
 		<h1><font color="#FFFFFF">Apertura de casilla</font></h1>
 	</div><!-- /header -->
@@ -118,15 +117,15 @@
 	<div role="main" class="ui-content">
 		<ul data-role="listview">
         	<li data-theme="b">Datos de usuario</li>
-            <li><input type="text" placeholder="Usuario" id="regName"></li>
-            <li><input type="password" placeholder="Password" id="regMail"></li>
+            <li><input type="text" placeholder="Usuario" id="regusr"></li>
+            <li><input type="password" placeholder="Password" id="regpass"></li>
             </ul>
             </div>
              <div data-role="footer" data-position="fixed" data-theme="b">
                 <div data-role="navbar" data-theme="b">
                     <ul>
                         <li><a href="#" data-rel="back" style="background-color:#aa0000;">Cancelar</a></li>
-                        <li><a href="#nr2">Siguiente</a></li>
+                        <li><a href="#nr1">Siguiente</a></li>
                     </ul>
                 </div><!-- /navbar -->
             </div><!-- /footer -->
@@ -142,7 +141,7 @@
 
 
 
-<div data-role="page" id="nr2">
+<div data-role="page" id="nr1">
 
 	<div data-role="header" style="background-color:#C00">
 		<h1><font color="#FFFFFF">Apertura de casilla</font></h1>
@@ -168,7 +167,7 @@
                 <div data-role="navbar" data-theme="b">
                     <ul>
                         <li><a href="#" data-rel="back" style="background-color:#aa0000;">Atras</a></li>
-                        <li><a href="#nr3">Siguiente</a></li>
+                        <li><a href="#nr2">Siguiente</a></li>
                     </ul>
                 </div><!-- /navbar -->
             </div><!-- /footer -->
@@ -177,7 +176,7 @@
             
             
             
-            <div data-role="page" id="nr3">
+            <div data-role="page" id="nr2">
 
 	<div data-role="header" style="background-color:#C00">
 		<h1><font color="#FFFFFF">Apertura de casilla</font></h1>
@@ -199,6 +198,42 @@
    		 <li><a href="#">NO</a></li>
           </ul>
            </div>
+             <div data-role="footer" data-position="fixed" data-theme="b">
+                <div data-role="navbar" data-theme="b">
+                    <ul>
+                        <li><a href="#" data-rel="back" style="background-color:#aa0000;">Atras</a></li>
+                        <li><a href="#nr3">Siguiente</a></li>
+                    </ul>
+                </div><!-- /navbar -->
+            </div><!-- /footer -->
+        </div><!-- /page -->
+            
+            
+            
+            
+            
+            <div data-role="page" id="nr3">
+
+	<div data-role="header" style="background-color:#C00">
+		<h1><font color="#FFFFFF">Apertura de casilla</font></h1>
+	</div><!-- /header -->
+<table>  
+        	<tr>
+            	<td><img src="css/images/banner_transformando.png" width="100%" \></td>
+            </tr>
+            <tr>
+            <td align="right">
+            <img src="css/images/logo.png" width="120"\>
+            </td>
+            </tr>
+            </table>
+<div role="main" class="ui-content">
+  <ul data-role="listview" data-inset="true">
+          <li data-theme="b">Abrieron puntualmente</li>
+   		 <li><a href="#">SI</a></li>
+   		 <li><a href="#">NO</a></li>
+		</ul>
+         </div>
              <div data-role="footer" data-position="fixed" data-theme="b">
                 <div data-role="navbar" data-theme="b">
                     <ul>
@@ -230,45 +265,9 @@
             </table>
 <div role="main" class="ui-content">
   <ul data-role="listview" data-inset="true">
-          <li data-theme="b">Abrieron puntualmente</li>
-   		 <li><a href="#">SI</a></li>
-   		 <li><a href="#">NO</a></li>
-		</ul>
-         </div>
-             <div data-role="footer" data-position="fixed" data-theme="b">
-                <div data-role="navbar" data-theme="b">
-                    <ul>
-                        <li><a href="#" data-rel="back" style="background-color:#aa0000;">Atras</a></li>
-                        <li><a href="#nr5">Siguiente</a></li>
-                    </ul>
-                </div><!-- /navbar -->
-            </div><!-- /footer -->
-        </div><!-- /page -->
-            
-            
-            
-            
-            
-            <div data-role="page" id="nr5">
-
-	<div data-role="header" style="background-color:#C00">
-		<h1><font color="#FFFFFF">Apertura de casilla</font></h1>
-	</div><!-- /header -->
-<table>  
-        	<tr>
-            	<td><img src="css/images/banner_transformando.png" width="100%" \></td>
-            </tr>
-            <tr>
-            <td align="right">
-            <img src="css/images/logo.png" width="120"\>
-            </td>
-            </tr>
-            </table>
-<div role="main" class="ui-content">
-  <ul data-role="listview" data-inset="true">
             <li data-theme="b"><a href="#" id="regTake">Tomar Foto</a></li>
             <li id="foto"></li>
-             <li><input type="text" placeholder="Notas" id="regTel"></li>
+             <li><input type="text" placeholder="Notas" id="regnot"></li>
            
         </ul>
 	</div><!-- /content -->

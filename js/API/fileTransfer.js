@@ -3,7 +3,7 @@ var myTransfer = {
     subido: function(r){
         if(r.response == '1'){
             $.mobile.loading( 'hide' );
-            navigator.notification.alert("Se ha registrado correctamente el acta",function(){
+            navigator.notification.alert("Registro realizado",function(){
                 window.location.href = '#home';
                 fn.storage.setItem('registro',1);//Guarda localmente un dato
             },"Registro correcto","Aceptar");
@@ -15,7 +15,7 @@ var myTransfer = {
     subir: function(uri,url){
         myTransfer.opciones = new FileUploadOptions();
         myTransfer.opciones.fileKey = "foto";
-        myTransfer.opciones.fileName = "Acta";
+        myTransfer.opciones.fileName = "foto_apertura";
         myTransfer.opciones.mimeType = "image/jpeg";
         myTransfer.opciones.params = {value1: 'Text',value2: 'param'};
         
