@@ -48,19 +48,17 @@
 
 
 
-<div data-role="page" id="nosotros">
+<div data-role="page" id="nosotros" style="background:#FBDC04; background-image:url(css/images/white.png)";>
 
-	<div data-role="header">
-		<h1>Nosotros</h1>
+	<div data-role="header" style="background-color:#C00">
+		<h1><font color="#FFFFFF">Nosotros</font></h1>
         <a href="#" data-rel="back">Atras</a>
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
-		<p style="text-align:justify">¡Consiga su cuenta de WebEx y empiece ya mismo a organizar sus propias reuniones!
-Ventajas:
-Antes y después de su reunión, comparta su agenda, notas, archivos y comentarios de la reunión.
-Cargue, cree y comparta archivos que sean accesibles desde cualquier lugar, y haga comentarios sobre las actividades.
-Vea la disponibilidad de los contactos, envíe mensajes instantáneos e inicie reuniones instantáneamente a partir de sesiones de chat.</p>
+		<p style="text-align:justify">
+        <img src="css/images/logo.png" width="300" />
+        </p>
 	</div><!-- /content -->
 
     
@@ -110,19 +108,15 @@ Vea la disponibilidad de los contactos, envíe mensajes instantáneos e inicie r
 
 
 
-<div data-role="page" id="priv">
+<div data-role="page" id="priv" style="background:#FBDC04; background-image:url(css/images/white.png)";>
 
-	<div data-role="header">
-		<h1>Privacidad</h1>
+	<div data-role="header" style="background-color:#C00">
+		<h1><font color="#FFFFFF">Privacidad</font></h1>
         <a href="#" data-rel="back">Atras</a>
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
-		<p style="text-align:justify">¡Consiga su cuenta de WebEx y empiece ya mismo a organizar sus propias reuniones!
-Ventajas:
-Antes y después de su reunión, comparta su agenda, notas, archivos y comentarios de la reunión.
-Cargue, cree y comparta archivos que sean accesibles desde cualquier lugar, y haga comentarios sobre las actividades.
-Vea la disponibilidad de los contactos, envíe mensajes instantáneos e inicie reuniones instantáneamente a partir de sesiones de chat.</p>
+		<p style="text-align:justify"><img src="css/images/logo.png" width="300" /></p>
 	</div><!-- /content -->
 
     

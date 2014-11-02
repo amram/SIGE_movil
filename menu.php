@@ -14,8 +14,8 @@ $nombre_usuario = $_GET["nombre_usuario"];
 <p align="right"><font size="+1" face="Verdana, Geneva, sans-serif">Bienvenido</font> <br /><font size="-1" face="Verdana, Geneva, sans-serif"><?php echo $nombre_usuario;?></font></p>
 
 <center>
-   		 <a href="http://50.62.9.206/~srealms/sige_movil/distritos.php"><img src="http://50.62.9.206/~srealms/sige_movil/distritos.png" width="250" /></a><br /><br />
-   		 <a href="http://50.62.9.206/~srealms/sige_movil/bingo.php" id="verHistorial"><img src="http://50.62.9.206/~srealms/sige_movil/bingo.png" width="250" /></a>
+   		 <a href="#"><img src="http://50.62.9.206/~srealms/sige_movil/distritos.png" width="250" /></a><br /><br />
+   		 <a href="http://50.62.9.206/~srealms/sige_movil/bingo.php?id_usuario=<?php echo $id_usuario;?>&nombre_usuario=<?php echo $nombre_usuario;?>" id="verHistorial"><img src="http://50.62.9.206/~srealms/sige_movil/bingo.png" width="250" /></a>
 		</center>
 </body>
 </html>
